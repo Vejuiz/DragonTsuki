@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ae3638;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .container h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .container img {
+            margin: 20px 0;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+        }
+
+        .container p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .cursos-section {
+            padding: 30px 20px;
+            background-color: #f4f4f4;
+        }
+
+        .cursos-section h2 {
+            font-size: 2em;
+            color: #ae3638;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .curso {
+            margin: 20px auto;
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .curso h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .curso p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .about-section {
+            padding: 30px 20px;
+            background-color: #eaeaea;
+            text-align: center;
+            margin-bottom: 50px; /* Espacio adicional agregado aquí */
+        }
+
+        .about-section h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .about-section video {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ae3638;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DRAGON TSUKI</h1>
+    </header>
+
+    <nav>
+        <a href="#cursos">Cursos</a>
+        <a href="#iniciar-sesion">Iniciar Sesión</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#pago-en-linea">Pago en Línea</a>
+    </nav>
+
+    <div class="container">
+        <h1>Somos más que artes marciales</h1>
+        <img src="logo-dragon-tsuki.jpg" alt="Logo de Dragon Tsuki">
+        <p>Hecho por dragones, para convertir a gente en dragones. Somos una empresa enfocada en el bienestar y salud mental que busca mejorar el estado físico y mental de nuestros consumidores.</p>
+    </div>
+
+    <!-- Sección de Cursos -->
+    <div id="cursos" class="cursos-section">
+        <h2>Nuestros Cursos</h2>
+        <div class="curso">
+            <h3>Karate</h3>
+            <p>Un arte marcial japonés que combina técnicas de golpeo, defensa y movimientos fluidos. Ideal para mejorar la coordinación, la disciplina y la confianza personal.</p>
+        </div>
+        <div class="curso">
+            <h3>Judo</h3>
+            <p>Enfocado en el uso de la fuerza del oponente para someterlo, el Judo enseña control, técnicas de proyección y autocontrol. Es una gran opción para aprender defensa personal.</p>
+        </div>
+        <div class="curso">
+            <h3>Taekwondo</h3>
+            <p>Un arte marcial coreano caracterizado por sus patadas espectaculares y ágiles. Mejora la fuerza, flexibilidad y la concentración.</p>
+        </div>
+    </div>
+
+    <!-- Sección Sobre Nosotros -->
+    <div id="sobre-nosotros" class="about-section">
+        <h2>Sobre Nosotros</h2>
+        <p>Descubre más sobre nuestra historia, misión y los valores que nos impulsan a ser líderes en el mundo de las artes marciales.</p>
+        <!-- Video -->
+        <video controls>
+            <source src="sobrenosotros.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nuestra Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
